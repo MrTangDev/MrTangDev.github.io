@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://mrtangdev.github.io/",
   "description": "Portfolio",
   "author": "MrTangDev",
   "keywords": [
@@ -9,6 +10,7 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -18,5 +20,8 @@
     "gatsby": "^3.3.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
