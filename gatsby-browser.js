@@ -1,1 +1,0 @@
-import "https://cdn.simplecss.org/simple.min.css"
